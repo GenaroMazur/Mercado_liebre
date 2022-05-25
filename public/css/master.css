@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+}
+/*---------- header ----------*/
+header{
+    background-color: #EAC926;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+header>*{
+    margin:5px;
+}
+.nav-bar{
+    align-self:flex-start;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.burger-menu{
+    background-color: #1259c3;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 7px;
+}
+.img-header{
+    width: 100%;
+}
+/*---------- clases ----------*/
+.titulares{
+    font-size: 24px;
+    box-shadow: none;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+/*---------- main ----------*/
+main{
+    align-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #ebebeb;
+}
+section>*{
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+img{
+    width: 85%;
+}
+.articulo{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+/*---------- footer ----------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    background-color: #c0c0c0;
+}
+footer>*{
+    padding: 20px 25%;
+}
+footer .titulares{
+    font-weight: large;
+    font-size: 20px;
+}
+#copyrigth{
+    white-space: nowrap;
+    color: #666;
+}
+@media (min-width: 760px){
+    .nav-bar{
+        display:block
+    }
+    .burger-menu{
+        display: none;
+    }
+}
