@@ -16,14 +16,26 @@ header{
     flex-direction: column;
     align-items: center;
 }
+#logo{
+    width:20%;
+}
+.top-bar h2{
+    max-width: 250px;
+}
 .top-bar{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
+    width:100%;
 }
 form{
     height: 20px;
+    flex-grow: 0.80;
+    display: flex;
     margin-top: 15px;
+}
+form>*{
+    width:100%;
 }
 header>*{
     margin:5px;
@@ -96,6 +108,13 @@ img{
     border-top: 1px solid #ebebeb;
     padding: 15px;
 }
+.articulo i{
+    font-size: 20px;
+    border: solid 2px rgb(24, 172, 24);
+    border-radius: 100%;
+    padding:5px;
+    color:rgb(24, 172, 24);
+}
 /*---------- footer ----------*/
 footer{
     display: flex;
@@ -107,6 +126,10 @@ footer{
 }
 footer>*{
     padding: 20px 25%;
+}
+footer i{
+    font-size: 50px;
+    color: #1259c3;
 }
 footer .titulares{
     font-weight: large;
