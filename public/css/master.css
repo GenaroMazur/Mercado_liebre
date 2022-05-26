@@ -19,6 +19,9 @@ header{
 #logo{
     width:50%;
 }
+#banner{
+    width:100%;
+}
 .top-bar h2{
     max-width: 250px;
 }
@@ -65,9 +68,6 @@ li{
     color: white;
     padding: 0.4rem;
     border-radius: 7px;
-}
-.img-header{
-    width: 90vw;
 }
 /*---------- fuentes ----------*/
 .titulares{
