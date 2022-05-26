@@ -101,6 +101,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 section>*{
     margin: 10px;
