@@ -9,24 +9,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c62d52c57f.js" crossorigin="anonymous"></script>
     <title>Mercado liebre</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="top-bar">
             <img src="./img/logo-mercado-liebre.svg" alt="logo-mercado-liebre"  class="img-header">
-        </div>
-        <div class="search-bar">
             <form action="/productos" method="get">
                 <input type="search" name="busqueda" id="search" placeholder="buscar productos, etiquetas,etc">
             </form>
-        </div>
-        <div>
-            <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            <h2>
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
         </div>
         <nav class="nav-bar">
             <ul>
-                <li><a href="">Ofertas</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
                 <li><a href="">Vender</a></li>
                 <li><a href="">Ayuda</a></li>
@@ -90,9 +90,9 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="ofertas">
             <div class="titulares">
-                <h3>Basado en tu última visita</h3>
+                <h3>Ofertas</h3>
             </div>
             <div>
                 <div class="img-prod">
