@@ -71,6 +71,7 @@ li{
 .titulares{
     font-size: 24px;
     box-shadow: none;
+    width: 100%;
 }
 .precio{
     font-size: 18px;
@@ -93,6 +94,11 @@ main{
     align-items: center;
     padding: 10px 5%;
     background-color: #ebebeb;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 section>*{
     margin: 10px;
@@ -147,7 +153,15 @@ footer .titulares{
         display:flex;
         justify-content: space-between;
     }
+    .producto{
+        width:45%
+    }
     .burger-menu{
         display: none;
+    }
+}
+@media (min-width: 1024px){
+    .producto{
+        width: 22%;
     }
 }
