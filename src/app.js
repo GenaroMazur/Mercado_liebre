@@ -5,10 +5,11 @@ const port= process.env.PORT || 3001
 // app.listen(process.env.PORT || 3001,()=>{
 //     console.log("Servidor lanzado en puerto 3001")
 // })
-app.listen(port,()=>{
-    console.log("servidor corriedo en "+port)
+app.listen("puerto",()=>{
+    console.log('servidor corriedo en'+ app.get("puerto"))
 })
 app.use(express.static(path.join(__dirname,"./../public")))
+app.set("puerto",process.env.PORT || 3001)
 
 app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname,"./views/home.html"))
