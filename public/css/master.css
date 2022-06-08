@@ -31,7 +31,7 @@ header{
     justify-content:center;
     width:100%;
 }
-form{
+header>form{
     height: 20px;
     width: 50%;
     display: flex;
@@ -106,6 +106,16 @@ section{
 section>*{
     margin: 10px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.formulario div{
+    display: flex;
+    flex-direction: column;
 }
 img{
     width: 85%;
